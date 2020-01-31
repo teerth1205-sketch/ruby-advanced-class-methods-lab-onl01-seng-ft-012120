@@ -34,10 +34,9 @@ class Song
     @@all.each do |names|
      if names.name == string 
         return names
-      elsif names.name != string
-        nil
     
      end 
+     nil
    end
    
  end 
