@@ -33,9 +33,10 @@ class Song
   def self.find_by_name(string)
     @@all.each do |name|
      if name.name == string 
-       name
+       new = name
      end 
-   end 
+   end
+   new 
  end 
     
     
