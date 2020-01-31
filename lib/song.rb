@@ -53,7 +53,9 @@ class Song
       
   end
   
-  def 
+  def self.new_from_filename(filename)
+    filename.split()
+    
      
     
     
