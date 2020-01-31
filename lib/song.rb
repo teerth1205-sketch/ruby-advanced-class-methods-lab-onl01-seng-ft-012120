@@ -22,7 +22,13 @@ class Song
     song.name = string
     song
   end 
-    
+  
+  def self.create_by_name(string)
+    song = self.new
+    sog.name = string 
+    @@all << song 
+    song
+  end 
     
     
     
