@@ -31,7 +31,7 @@ class Song
   end 
     
   def self.find_by_name(string)
-    @new = self.all.find do |names|
+    self.all.find do |names|
      names.name == string
     end
    
@@ -39,8 +39,8 @@ class Song
   
   def self.find_or_create_by_name(string)
    result = self.find_by_name(string)
-   if result == true 
-     @new
+   if result
+     result
    else 
      self.create_by_name(string)
      
