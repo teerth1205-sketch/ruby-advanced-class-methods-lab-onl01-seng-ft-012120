@@ -47,7 +47,9 @@ class Song
    end
   end
   
-  def self.
+  def self.alphabetical
+    @@all.collect do |names|
+      
     
      
     
