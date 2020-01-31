@@ -34,6 +34,8 @@ class Song
     @@all.each do |names|
      if names.name == string 
         return names
+      else 
+        falsey
      end 
    end
    
