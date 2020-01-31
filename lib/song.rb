@@ -35,7 +35,7 @@ class Song
      if names.name == string 
         return names
       else 
-        nil
+        return nil
      end 
    end
    
