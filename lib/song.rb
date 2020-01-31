@@ -37,7 +37,9 @@ class Song
    
   end 
   
-  def self.
+  def self.find_or_create_by_name(string)
+   if  @@all.find { |names| names.name == string}
+     
     
     
 
