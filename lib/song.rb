@@ -40,7 +40,7 @@ class Song
   def self.find_or_create_by_name(string)
    result = self.find_by_name(string)
    if result == true 
-     result
+     @new
    else 
      self.create_by_name(string)
      
